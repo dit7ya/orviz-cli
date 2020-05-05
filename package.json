@@ -1,0 +1,41 @@
+{
+  "name": "orviz-cli",
+  "description": "Command Line Interface for Org-Roam Visualization and Exploration Tool.",
+  "version": "0.0.1",
+  "author": "dit7ya @dit7ya",
+  "bin": {
+    "orviz-cli": "./bin/run"
+  },
+  "bugs": "https://github.com/dit7ya/orviz-cli/issues",
+  "dependencies": {
+    "@oclif/command": "^1.6.0",
+    "@oclif/config": "^1.15.1",
+    "@oclif/plugin-help": "^2.2.3",
+    "inquirer": "^7.1.0"
+  },
+  "devDependencies": {
+    "@oclif/dev-cli": "^1.22.2"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "files": [
+    "/bin",
+    "/src"
+  ],
+  "homepage": "https://github.com/dit7ya/orviz-cli",
+  "keywords": [
+    "oclif"
+  ],
+  "license": "GPL",
+  "main": "src/index.js",
+  "oclif": {
+    "bin": "orviz-cli"
+  },
+  "repository": "dit7ya/orviz-cli",
+  "scripts": {
+    "prepack": "oclif-dev readme",
+    "test": "echo NO TESTS",
+    "version": "oclif-dev readme && git add README.md"
+  }
+}
